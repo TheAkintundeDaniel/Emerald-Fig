@@ -504,6 +504,7 @@ a {
 
 .codesquadcomm h4 {
     margin-left: 320px;
+    margin-top: 130px;
     font-size: 40px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -512,17 +513,23 @@ a {
     margin-left: 130px;
     font-size: 18px;
     font-weight: 400;
-    margin-top: -40px;
+    margin-top: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    /* width: 683px; */
+    padding-right: 150px;
 }
 
 .codesquadcomm button {
-    padding: 6px 50px;
+    /* padding: 7px 60px; */
     color: white;
     background-color: blue;
     border: 0;
     border-radius: 8px;
     margin-left: 450px;
+    margin-top: 10px;
+    /* text-align: center;
+    width: 683px; */
 }
 
 .rectangle {
@@ -661,7 +668,7 @@ a {
 .signup h4 {
     color: white;
     padding-left: 50px;
-    margin-top: -20px;
+    margin-top: 20px;
     font-weight: 100;
     font-size: small;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
