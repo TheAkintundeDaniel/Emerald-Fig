@@ -97,11 +97,12 @@ a {
     /* position: relative; */
     text-align: center;
     padding: 100px 20px;
-    height: 293px;
+    /* height: 293px; */
     left: 120px;
     opacity: 0px;
     /* margin-right: 400px; */
-    padding-left: 190px;
+    margin-bottom: 30px;
+    /* padding-left: 150px; */
 
 }
 
@@ -114,9 +115,8 @@ a {
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: Base Neue Trial;
-    font-size: 60px;
-    width: 1000px;
-    height: 120px;
+    /* width: 1000px; */
+    /* height: 120px; */
     color: #F5F5F5;
     text-align: center;
     font-size: 40px;
@@ -140,6 +140,7 @@ a {
 }
 
 #para1imag {
+    /* width: 100%; */
     margin-left: 30px;
     margin-bottom: 100px;
     position: absolute;
@@ -159,8 +160,8 @@ a {
 }
 
 .para1 p {
-    width: 950px;
-    height: 81px;
+    /* width: 950px; */
+    /* height: 81px; */
     gap: 0px;
     opacity: 0px;
     font-family: Calibre;
@@ -170,7 +171,7 @@ a {
     letter-spacing: -0.01em;
     text-align: center;
     margin-bottom: 20px;
-    padding-left: 150px;
+    /* padding-left: 150px; */
 
 }
 
@@ -186,6 +187,13 @@ a {
     background-color: #007bff;
     color: #FFF;
     margin-right: 2px;
+    width: 110px;
+    height: 30px;
+}
+
+.button .btn1:hover {
+    width: 120px;
+    height: 40px;
 }
 
 .button .btn2 {
@@ -195,7 +203,7 @@ a {
 }
 
 .blend {
-    margin-top: 150px;
+    /* margin-top: 20px; */
     width: auto;
     padding-left: 0px;
 
@@ -205,7 +213,8 @@ a {
 .blendimg {
     height: 100px;
     width: 100%;
-    margin-top: 100px;
+    /* padding-top: 90px; */
+    margin-top: 23px;
 }
 
 
@@ -241,8 +250,8 @@ a {
 }
 
 .innovation {
-    width: 1, 199px;
-    height: 180pxpx;
+    /* width: 1, 199px; */
+    /* height: 180pxpx; */
     margin-top: 30px;
     margin-left: 40px;
     gap: 96px;
@@ -261,6 +270,10 @@ a {
     letter-spacing: -0.01em;
     text-align: left;
 
+}
+
+#image {
+    width: 100%;
 }
 
 .solution1 img {
@@ -306,7 +319,6 @@ a {
     gap: 37px;
     opacity: 0px;
     display: flex;
-    /* flex-direction: row; */
     margin-top: 50px;
     margin-left: 40px;
 }
@@ -356,6 +368,7 @@ a {
     height: 203px;
     gap: 69px;
     display: flex;
+    padding-top: 30px;
 }
 
 .acquire {
@@ -394,16 +407,17 @@ a {
 }
 
 .picture {
-    width: 1313px;
-    height: 349px;
+    /* width: 1313px; */
+    width: 100%;
+    /* height: 349px; */
     gap: 25px;
     display: flex;
-    margin-top: 120px;
+    /* margin-top: 120px; */
 }
 
 .rect {
-    width: 421px;
-    height: 349px;
+    /* width: 421px; */
+    /* height: 349px; */
     padding: 0px 16px 28px 16px;
     gap: 33px;
     border-radius: 8px 0px 0px 0px;
@@ -443,34 +457,35 @@ a {
 }
 
 .data {
-    width: 389px;
-    height: 230px;
-    left: 16px;
+    width: 100%;
+    /* height: 230px; */
+    /* left: 16px;
     border-radius: 8px;
     margin-top: -92px;
-    margin-left: px;
+    margin-left: px; */
 }
 
 .kickstart {
-    width: 1312px;
-    height: 160px;
+    width: 100%;
+    /* height: 160px; */
     border-radius: 12px;
     background-color: rgba(26, 115, 232, 1);
     justify-content: space-between;
     display: flex;
-
-    margin-top: 60px;
+    margin-right: 100px;
+    margin-top: 90px;
     padding-top: 56px;
     padding-left: 80px;
     padding-right: 80px;
+    padding-bottom: 56px;
 }
 
 .kickstart h4 {
-    width: 418px;
+    /* width: 418px; */
     height: 48px;
     color: white;
     font-family: Base Neue Trial;
-    font-size: 32px;
+    /* font-size: 32px; */
     font-weight: 500;
     line-height: 48px;
     letter-spacing: -0.01em;
@@ -489,7 +504,7 @@ a {
 }
 
 .overall {
-    width: 1400px;
+    /* width: 100%; */
     height: 800px;
     padding: 80px, 100px, 80px, 100px;
     gap: 8px;
@@ -506,8 +521,8 @@ a {
 }
 
 .third {
-    width: 1136px;
-    height: 185px;
+    width: 100%;
+    /* height: 185px; */
     padding-top: 24px;
     padding-left: 96px;
 }
@@ -527,8 +542,8 @@ a {
 }
 
 .inner-box {
-    width: 1136px;
-    height: 149px;
+    /* width: 1136px; */
+    /* height: 149px; */
     gap: 24px;
     display: flex;
     padding-top: 12px;
@@ -536,7 +551,7 @@ a {
 
 .team {
 
-    height: 120px;
+    /* height: 120px; */
     font-size: 40px;
     line-height: 60px;
     font-weight: 500;
@@ -888,4 +903,328 @@ lin {
 .main {
     max-width: 80%;
     margin: auto;
+}
+
+
+/* media query */
+@media screen and (max-width:1460px) {
+    .kickstart {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .inner-box {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width:1216px) {
+
+    .innovation {
+        flex-direction: column;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .all {
+        margin-top: 1400px;
+    }
+
+    .highly {
+        flex-direction: column;
+        margin-bottom: 150px;
+    }
+
+    /* .inner-box {
+        flex-direction: column;
+    } */
+
+
+
+}
+
+
+@media screen and (max-width:1200px) {
+    .para1 h1 {
+        font-size: 30px;
+    }
+
+    .blendimg {
+        margin-top: 45px;
+    }
+
+
+
+}
+
+@media screen and (max-width:1164px) {
+    .all {
+        margin-top: 1350px;
+    }
+
+}
+
+@media screen and (max-width:1100px) {
+    .all {
+        margin-top: 1300px;
+    }
+
+    .second {
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width:1092px) {
+    .picture {
+        flex-direction: column;
+    }
+
+    .rect {
+        margin-bottom: 5px;
+    }
+
+    .second {
+        margin-top: 2000px;
+    }
+
+    /* .inner-box {
+        flex-direction: column;
+    } */
+}
+
+@media screen and (max-width:1000px) {
+    .all {
+        margin-top: 1200px;
+    }
+
+    .second {
+        margin-top: 1900px;
+    }
+
+
+}
+
+@media screen and (max-width: 930px) {
+    nav ul {
+        gap: 8px;
+    }
+
+    .anchor {
+        font-size: 10px;
+        width: 59%;
+    }
+
+    .logo h1 {
+        font-size: 13px;
+    }
+
+    .navigation .logo img {
+        width: 25px;
+        height: 15px;
+    }
+
+    button {
+        width: 90px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    #para1img {
+        width: 30px;
+        height: 20px;
+    }
+
+    #para1imag {
+        width: 30px;
+        height: 20px;
+    }
+
+    .button .btn1 {
+        width: 90px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .blendimg {
+        margin-top: 62px;
+    }
+
+    .all {
+        margin-top: 1100px;
+    }
+
+    .second {
+        margin-top: 1700px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .para1 h1 {
+        font-size: 20px;
+    }
+
+    .para1 p {
+        font-size: 12px;
+    }
+
+    .blendimg {
+        margin-top: 92px;
+    }
+}
+
+@media screen and (max-width:833px) {
+    .all {
+        margin-top: 1000px;
+    }
+
+    .second {
+        margin-top: 1600px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .para1 h1 {
+        font-size: 15px;
+    }
+
+    .para1 p {
+        font-size: 10px;
+    }
+
+
+    .blendimg {
+        margin-top: 102px;
+    }
+
+    .all {
+        margin-top: 900px;
+    }
+
+    .second {
+        margin-top: 2000px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .highly {
+        margin-bottom: 160px;
+    }
+
+    .second {
+        margin-top: 1300px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .para1 h1 {
+        font-size: 15px;
+    }
+
+    .para1 p {
+        font-size: 10px;
+    }
+
+
+    .blendimg {
+        margin-top: 102px;
+    }
+
+}
+
+@media screen and (max-width:668px) {
+    .all {
+        margin-top: 950px;
+    }
+
+    .highly {
+        margin-bottom: 170px;
+    }
+}
+
+@media screen and (max-width:657px) {
+    .highly {
+        margin-bottom: 250px;
+    }
+}
+
+@media screen and (max-width: 587px) {
+    .long {
+        margin-top: 50px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .anchor {
+        font-size: 10px;
+        width: 70%;
+    }
+
+    .para1 h1 {
+        font-size: 10px;
+        /* padding-right: 50px; */
+
+    }
+
+    .para1 p {
+        font-size: 8px;
+    }
+
+    .blendimg {
+        margin-top: 112px;
+    }
+
+    button {
+        width: 70px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .highly {
+        margin-bottom: 290px;
+    }
+
+    .second {
+        margin-top: 1085px;
+    }
+
+    .kickstart h4 {
+        font-size: 14px;
+    }
+
+
+}
+
+@media screen and (max-width: 420px) {
+    .blendimg {
+        margin-top: 85px;
+    }
+
+    .anchor {
+        font-size: 10px;
+        width: 60%;
+    }
+
+    .acquire h3 {
+        margin-top: 70px;
+    }
+
+    .kickstart h4 {
+        font-size: 10px;
+    }
+
+    /* .rect {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    } */
+
+
 }
